@@ -1,0 +1,122 @@
+/*
+Colors used:
+background Color (Black): #333333;
+Text Color (White): #FEFCFC;
+*/
+
+body {
+  background-color: #EFEFCFC;
+  font-optical-sizing: auto;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal; 
+  color: #333333;
+
+  img {
+    width: 100%;
+  }
+
+
+  h1,h2,h3,h4 {
+    font-family: "Lora", system-ui;
+    line-height: 1.4;
+  }
+
+  h1 {
+    font-size: 1.75em;
+    font-weight: 700;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 1.25em;
+    font-weight: 700;
+  }
+
+  h4 {
+    font-size: 1.2em;
+    font-weight: 400;
+  }
+
+  p {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.4;
+    font-size: 1.0em;
+    font-weight: 400;
+    font-style: normal;
+  }
+}
+
+
+
+/*
+Hyperlink color
+*/
+
+a {
+  color: #0000FF;
+  text-decoration: none;
+  /* No underlining */
+}
+
+a:hover {
+  color: #0000FF;
+  text-decoration: underline;
+  /* Underlining when hovering over a link */
+}
+
+
+a:visited {
+  /* visited link */
+  color: #0000FF;
+}
+
+a:active {
+  /* selected link */
+  color: #0000FF;
+}
+
+
+a:hover,
+a:focus {
+  color: #0000FF;
+  text-decoration: underline;
+}
+
+/* Button */
+<a href="#" class="button">Read more</a>
+
+.button {
+  display: inline-block; 
+  background-color: #3498DB;
+  color: #ffffff; 
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #994c30; 
+  transition: 0.2s opacity;
+}
+
+.button:hover {
+  opacity: 0.8; 
+  padding: 10px;
+  text-decoration: none;
+}
+
+.button.contact {
+  background-color: #3498DB;
+  color: #ffffff;
+  text-transform: Sentensecase;
+  border: 2px solid #3498DB;
+  padding: 10px;
+}
+
+.button.contact:hover {
+  background-color: #3498DB;
+  color: #ffffff;
+  
+}
