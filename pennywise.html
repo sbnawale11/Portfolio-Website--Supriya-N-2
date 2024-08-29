@@ -8,9 +8,7 @@
     <meta name="description"
         content="Discover Supriya Nawale's portfolio, featuring a diverse range of projects in UX/UI design">
     <title>Supriya Nawale's Portfolio</title>
-</head>
 
-<head>
     <link rel="stylesheet" type="text/css"
         href="css/https:/cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -23,10 +21,15 @@
 
 <body>
     <header>
-        <div>
-            <span>Supriya Nawale</span>
+        <div class="container">
+            <div>
+                <picture>
+                    <source srcset="img/pennywise/icons/Supriya-logo.png" media="(max-width:767px)">
+                    <img class="logo" src="img/pennywise/icons/Supriya-logo.png" alt="My Image">
+                </picture>
+            </div>
             <nav>
-                <ul>
+                <ul class="navigation">
                     <li><a href="index.html">Work</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
@@ -85,15 +88,23 @@
 
             <div>
                 <h2 id="ProblemStatement">Problem Statement</h2>
-                <p>Saving money can be challenging, particularly when time is limited. Users need a tool that offers
-                    personalized financial advice based on their actual finances to help them save effectively within a
-                    short timeframe. </p>
-                <div>
-                    <picture>
-                        <source srcset="img/pennywise/600@1x/problem_statement600@1x.jpg" media="(max-width:767px)">
-                        <img src="img/pennywise/1200@1x/problem_statement1200@1x.jpg" alt="My Image">
-                    </picture>
+
+                <div class="row">
+                    <div class="column">
+                        <p>Saving money can be challenging, particularly when time is limited. Users need a tool that
+                            offers
+                            personalized financial advice based on their actual finances to help them save effectively
+                            within a
+                            short timeframe. </p>
+                    </div>
+                    <div class="column">
+                        <picture>
+                            <source srcset="img/pennywise/600@1x/problem_statement600@1x.jpg" media="(max-width:767px)">
+                            <img src="img/pennywise/1200@1x/problem_statement1200@1x.jpg" alt="My Image">
+                        </picture>
+                    </div>
                 </div>
+
             </div>
             <div>
                 <a href="#TableOfContents">Back to Table Of Contents</a>
