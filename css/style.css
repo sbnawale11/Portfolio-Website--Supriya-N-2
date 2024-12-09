@@ -315,11 +315,19 @@ nav>ul>li>a {
     margin-right: auto;
   }
 
-  .col-lg-4 {
-    width: 34%;
+  .col-lg-7 {
+    width: 60%;
   }
+  .col-lg-5 {
+    width: 40%;
+  }
+
+  .col-lg-4 {
+    width: 20%;
+  }
+
   .col-lg-8 {
-    width: 66%;
+    width: 80%;
   }
 }
 @media only screen and (min-width: 1440px) {
@@ -382,26 +390,6 @@ nav>ul>li>a {
 
 .cloud-back {
   animation: 34s cloud-move-reverse infinite alternate linear;
-}
-/* Align header and paragraph */
-.about-project {
-  display: flex;
-  align-items: flex-start; /* Aligns items at the start */
-  justify-content: space-between; /* Places items at both ends */
-  gap: 20px; /* Adds space between items */
-}
-
-.left-content {
-  flex: 1; /* Allows the content to take available space */
-}
-
-.right-content {
-  flex: 2; /* Allows more space for the paragraph */
-}
-
-.right-content p {
-  margin: 0; /* Removes any default margin */
-  line-height: 1.6; /* Improves readability */
 }
 
 #footer {
