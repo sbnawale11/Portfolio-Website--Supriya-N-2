@@ -186,13 +186,17 @@ header {
 
 header {
   background-color: #ffe4c4;
-  text-align: center;
+  
   padding: 10px 0;
 }
 
 nav>ul {
   list-style-type: none;
   padding: 0;
+}
+
+nav > ul {
+  margin: 1em 0;
 }
 
 nav>ul>li {
@@ -210,6 +214,39 @@ nav>ul>li>a {
   text-align: center;
 }
 
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+.navtoggle.responsive li  {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255,127,80,0.5);
+}
+
+.navtoggle.responsive li:last-child  {
+  padding: 0 0 10px;
+}
 
 #hero h1 {
   margin: 10px;
@@ -291,6 +328,13 @@ nav>ul>li>a {
   }
   
   #about-page h3 { margin-top: 0;}
+
+  .navtoggle li:last-child {
+    display: none;
+}
+
+.navtoggle li:not(:last-child) {
+  display: inline-block;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -395,3 +439,5 @@ nav>ul>li>a {
 #footer {
   text-align: center;
 }
+
+
