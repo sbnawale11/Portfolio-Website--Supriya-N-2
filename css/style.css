@@ -334,8 +334,8 @@ nav>ul>li>a {
 }
 
 .navtoggle li:not(:last-child) {
-  display: inline-block;
-}
+    display: inline-block;
+  }
 
 @media only screen and (min-width: 1024px) {
   header {
