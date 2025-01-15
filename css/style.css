@@ -184,9 +184,9 @@ header {
 header {
  /* background-color:  #79b5f5 ;*/
  /*background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(9,9,121,1) 50%, rgba(0,9,36,1) 100%);*/
- background: linear-gradient(#A100FFFF, #000000 10%, #FFFFFF, #119CFDFF);
+ background: linear-gradient(rgb(29, 112, 212), #000000 10%, #FFFFFF, #119CFDFF);
   padding: 10px 0;
-  max-height: 130px;
+  max-height: fit-content;
 }
 
 nav > ul {
@@ -206,7 +206,7 @@ nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #333;
+  color: #0d0d0e;
 }
 
 .navigation {
@@ -242,7 +242,7 @@ nav > ul > li > a {
 .navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid rgba(255, 127, 80, 0.5);
+  border-top: 1px solid rgba(52, 116, 188, 0.5);
 }
 
 .navtoggle.responsive li:last-child {
@@ -283,7 +283,7 @@ hr{
 }
 
 .row {
-  padding-bottom: 25px;
+  padding-bottom: 10px;
 }
 
 .project-full-size-image {
